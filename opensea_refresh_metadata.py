@@ -22,7 +22,7 @@ not_updated = not_updated_list if not_updated_list else list(range(1,token_numbe
 
 start_time = time.time()
 print("List : ", not_updated)
-while time.time() - start_time < 60 * 60 :
+while time.time() - start_time < time_limit :
     temp_lis = []
     num_updated = 0
     for i in not_updated:
