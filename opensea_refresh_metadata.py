@@ -26,7 +26,7 @@ while time.time() - start_time < time_limit :
     temp_lis = []
     num_updated = 0
     for i in not_updated:
-        url = base_url + collection + "/" + str(i) + "/?force_update=true"
+        url = base_url + smart_contract_address + "/" + str(i) + "/?force_update=true&format=json"
         r = json.loads(session.get(url).content)
         if "image_original_url" in r and r["image_original_url"] != None :
             num_updated += 1
