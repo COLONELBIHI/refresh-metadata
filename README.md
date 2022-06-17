@@ -1,2 +1,2 @@
-# OpenSea-refresh-metadata
-Python script to force metadata refresh for your Smart Contract's NFT collection on OpenSea
+# Refresh-metadata
+Python script to refresh metadata for your NFT collection
